@@ -17,6 +17,7 @@ df.loc['Total'] = df.sum()
 df.reset_index(inplace=True)
 print(df[:5])
 
+
 # ------------------------------------------------------------------------------
 # App layout
 app.layout = html.Div([
