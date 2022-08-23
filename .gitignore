@@ -1,1 +1,5 @@
 venv/
+dot.git/
+*.pyc
+.env
+.DS_Store
