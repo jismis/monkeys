@@ -5,7 +5,7 @@ from dash import Dash, dcc, html, Input, Output  # pip install dash (version 2.0
 
 from flask import Flask, jsonify
 
-app = Flask(__name__)
+app = Dash(__name__)
 server = app.server
  
 # Dash.register_page(__name__,path='/')
