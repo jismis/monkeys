@@ -3,11 +3,12 @@ import plotly.express as px  # (version 4.7.0 or higher)
 import plotly.graph_objects as go
 from dash import Dash, dcc, html, Input, Output  # pip install dash (version 2.0.0 or higher)
 
+from flask import Flask, jsonify
 
 app = Dash(__name__)
 server = app.server
  
-Dash.register_page(__name__,path='/')
+# Dash.register_page(__name__,path='/')
 
 # -- Import and clean data (importing csv into pandas)
 
